@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+.brother {
+    color: white;
+    background-color: #35423a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    border-bottom: 5px solid red;
+}
+
+span {
+    color: orangered;
+}
+
+.brother ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.brother ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+#service {
+    color: red;
+}
+
+.sister {
+    background-color: #35423a;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.sister button {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+}
+
+.sister form input {
+    padding: 5px 10px;
+}
+
+.father {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.father img {
+    width: 33%;
+}
+
+h3 {
+    background-color: #35423a;
+    padding: 20px;
+    margin: 20px 0;
+    color: #f5d2f2;
+}
+
+.father p {
+    background-color: #f5d2f2;
+    padding: 20px;
+    color: #35423a;
+}
+
+.mother {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 200px;
+    border: 5px solid #1550d1;
+}
+
+.box video {
+    width: 100%;
+    height: 100%;
+}
+
+.child5 {
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.child5 span {
+    color: #f5d2f2;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}

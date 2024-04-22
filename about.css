@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+.brother {
+    color: white;
+    background-color: #35423a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    border-bottom: 5px solid red;
+}
+
+span {
+    color: orangered;
+}
+
+.brother ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.brother ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+#about {
+    color: red;
+}
+
+.sister {
+    background-color: #35423a;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.sister button {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+}
+
+.sister form input {
+    padding: 5px 10px;
+}
+
+.father {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 48%;
+    background-color: #ddd4dd;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #35423a;
+    margin: 20px 0px;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+h3 {
+    background-color: #35423a;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none
+}
+
+#facebook {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#twitter {
+    background-color: blue;
+    color: white;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 200px;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.child2 p {
+    margin-top: 30px;
+    background-color: #35423a;
+    padding: 10px;
+    border: 5px solid #d894d8;
+}
+
+.child3 {
+    border: 5px solid #d894d8;
+    background-color: #35423a;
+    color: #ddd4dd;
+    padding: 20px;
+}
+
+.mother {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.child4 {
+    background-image: url(images/5553640155979510763aebb62751652e628b00e1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child5 {
+    background-image: url(images/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    width: 48%;
+    padding: 20px;
+    color: #041d03;
+    font-size: 20px;
+}
+
+.child4 p {
+    border: 3px solid #35423a;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.child10 {
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.child10 span {
+    color: #f5d2f2;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}

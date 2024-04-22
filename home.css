@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+.brother {
+    color: white;
+    background-color: #35423a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    border-bottom: 5px solid red;
+}
+
+span {
+    color: orangered;
+}
+
+.brother ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.brother ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+#home {
+    color: red;
+}
+
+.sister {
+    background-color: #35423a;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.sister button {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+}
+
+.sister form input {
+    padding: 5px 10px;
+}
+
+.father {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+.box1 {
+    width: 47%;
+    padding-bottom: 20px;
+    background-color: #808796;
+    padding: 20px;
+    border: 3px solid #35423a;
+    margin: 10px;
+    color: #300303;
+}
+
+.child3 {
+    width: 100%;
+    background-color: #b0b8b8;
+    padding: 20px;
+    border: 3px solid orangered;
+}
+
+.mother {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #35423a;
+}
+
+.box2 {
+    width: 47%;
+    padding-bottom: 20px;
+    background-color: #14171f;
+    padding: 20px;
+    border: 3px solid #35423a;
+    margin: 10px;
+    color: #d1c7c7;
+}
+
+form input {
+    padding: 5px 75px 5px 5px;
+}
+
+form textarea {
+    padding: 5px 75px 5px 5px;
+}
+
+.box2 form button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+
+.child10 {
+    background-color: red;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.child10 span {
+    color: #f5d2f2;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
